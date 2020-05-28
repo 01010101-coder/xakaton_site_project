@@ -30,6 +30,14 @@ img {
 	height: 300px;
 }
 
+.teamButton {
+	border: 1px solid #4B7C99;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	margin-left: 450px;
+}
+
 .manSettings img{
 }
 
@@ -44,4 +52,8 @@ img {
 
 .vozmojnosti p {
 	margin-bottom: 0px;
+}
+
+.hidden {
+	display: none;
 }

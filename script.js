@@ -1,30 +1,13 @@
-let firstButton = document.querySelector('.first');
-let descriptionFirst = document.querySelector('.functionDescriptionFirst');
-firstButton.addEventListener('click', function(evt){
+"use strict";
+let teamButton = document.querySelector('.teamButton');
+let mateFirst = document.querySelector('.mateFirst');
+let mateSecond = document.querySelector(".mateSecond");
+let mateThird = document.querySelector(".mateThird");
+let mateFourth = document.querySelector(".mateFourth");
+teamButton.addEventListener('click', function(evt){
     evt.preventDefault();
-    descriptionFirst.classList.toggle('hidden');
-});
-
-
-let secondButton = document.querySelector('.second');
-let descriptionSecond = document.querySelector('.functionDescriptionSecond');
-secondButton.addEventListener('click', function(evt){
-    evt.preventDefault();
-    descriptionSecond.classList.toggle('hidden');
-});
-
-
-let thirdButton = document.querySelector('.third');
-let descriptionThird = document.querySelector('.functionDescriptionThird');
-thirdButton.addEventListener('click', function(evt){
-    evt.preventDefault();
-    descriptionThird.classList.toggle('hidden');
-});
-
-
-let fourthButton = document.querySelector('.forth');
-let descriptionFourth = document.querySelector('.functionDescriptionFourth');
-fourthButton.addEventListener('click', function(evt){
-    evt.preventDefault();
-    descriptionFourth.classList.toggle('hidden');
+    mateFirst.classList.toggle('hidden');
+    mateSecond.classList.toggle('hidden');
+    mateThird.classList.toggle('hidden');
+    mateFourth.classList.toggle('hidden');
 });
