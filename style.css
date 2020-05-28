@@ -1,0 +1,47 @@
+* {
+	width: 1000px; 
+	color: #4B7C99; 
+	background-color: #EFEDE3;
+}
+
+body {
+	margin-top: 20px;
+	margin-left: 440px; 
+	margin-bottom: 20px;
+	
+}
+
+header {
+	margin-left: 340px;
+	width: 340px;
+	border: 1px solid #4B7C99;
+}
+
+img {
+	width: 200px;
+}
+
+.teamMates {
+	margin-top: 20px;
+	border: 1px solid #4B7C99;
+	width: 200px;
+	margin-right: 30px;
+	display: inline-block;
+	height: 300px;
+}
+
+.manSettings img{
+}
+
+.manSettings ul {
+	list-style: none;
+	font-size: 20px;
+}
+
+.vozmojnosti {
+	font-size: 30px;
+}
+
+.vozmojnosti p {
+	margin-bottom: 0px;
+}
