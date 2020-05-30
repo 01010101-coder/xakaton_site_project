@@ -57,3 +57,8 @@ img {
 .hidden {
 	display: none;
 }
+
+ul img {
+	width: 65px;
+	margin-bottom: 20px;
+}
